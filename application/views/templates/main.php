@@ -37,7 +37,7 @@
 		<!-- BEGIN LOGO -->
 		<div class="page-logo">
 			<a href="/">
-			<img src="<?php echo ASSETS_ADMIN_LAYOUT_IMG; ?>logo-big.png" alt="ArchiDOX" class="logo-default" />
+			<img src="<?php echo ASSETS_ADMIN_LAYOUT_IMG; ?>logo-small.png" alt="BSDterminal Warehouse" class="logo-default" />
 			</a>
 			<div class="menu-toggler sidebar-toggler hide">
 				<!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->

@@ -11,7 +11,7 @@ return array(
 	'default' => array(
 		'host' => 'localhost',
 		'port' => 8983,
-		'path' => '/solr/Archidox/',
+		'path' => '/solr/bsdterminalwhs/',
 		'unique_key' => 'id',
 	),
 );

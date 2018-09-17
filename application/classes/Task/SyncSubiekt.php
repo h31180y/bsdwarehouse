@@ -40,7 +40,7 @@ class Task_SyncSubiekt extends Minion_Task {
 				
 				echo "Customer ".$customer->name." found in Subiekt - processing monthly invoice \n\n";
 				
-				$product_name = "ARCHIDOX".($customer->id+10000);
+				$product_name = "BSDTERMINALWHS".($customer->id+10000);
 				
 				$customer_divisions= $customer->divisions->find_all();
 				$divisions_ids = array();
@@ -109,7 +109,7 @@ class Task_SyncSubiekt extends Minion_Task {
 					$usluga = $subiekt->TowaryManager->DodajUsluge();	
 					$usluga->Symbol  = $product_name;
 					$usluga->Nazwa  = iconv("utf-8","windows-1250","Magazynowanie pudeł");
-					$usluga->Opis  = iconv("utf-8","windows-1250","Magazynowanie pudeł Archidox - ".$customer->name);
+					$usluga->Opis  = iconv("utf-8","windows-1250","Magazynowanie pudeł BSDterminal warehouse - ".$customer->name);
 					$usluga->Aktywny = 1;
 					$usluga->CenaKartotekowa = $boxes_storage_price;
 					$usluga->PrzeliczCenyWgCenyKartotekowej();
