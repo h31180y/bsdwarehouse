@@ -1,0 +1,341 @@
+2015-10-09 12:58:08.279 INFO  (main) [   ] o.e.j.u.log Logging initialized @716ms
+2015-10-09 12:58:08.599 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-10-09 12:58:08.624 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-10-09 12:58:08.628 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/E:/www12/web/archiwum/solr/server/contexts/] at interval 0
+2015-10-09 12:58:10.195 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-10-09 12:58:10.223 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@239963d8{/solr,file:/E:/www12/web/archiwum/solr/server/solr-webapp/webapp/,STARTING}{E:\www12\web\archiwum\solr\server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-10-09 12:58:10.234 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1454127753@56ac3a89
+2015-10-09 12:58:10.261 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-10-09 12:58:10.262 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: E:\www12\web\archiwum\solr\server\solr
+2015-10-09 12:58:10.265 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'E:\www12\web\archiwum\solr\server\solr\'
+2015-10-09 12:58:10.522 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from E:\www12\web\archiwum\solr\server\solr\solr.xml
+2015-10-09 12:58:10.608 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: E:\www12\web\archiwum\solr\server\solr
+2015-10-09 12:58:10.624 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 996796369
+2015-10-09 12:58:10.624 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=E:\www12\web\archiwum\solr\server\solr\]
+2015-10-09 12:58:10.624 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: E:\www12\web\archiwum\solr\server\solr\lib
+2015-10-09 12:58:10.624 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: E:\www12\web\archiwum\solr\server\solr\lib).
+2015-10-09 12:58:10.655 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-10-09 12:58:10.854 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-10-09 12:58:10.858 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-10-09 12:58:10.859 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-10-09 12:58:10.861 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-10-09 12:58:10.861 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-10-09 12:58:10.892 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath E:\www12\web\archiwum\solr\server\solr
+2015-10-09 12:58:10.908 INFO  (main) [   ] o.a.s.c.CoresLocator Found 0 core definitions
+2015-10-09 12:58:10.908 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=E:\www12\web\archiwum\solr\server
+2015-10-09 12:58:10.908 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-10-09 12:58:10.923 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@239963d8{/solr,file:/E:/www12/web/archiwum/solr/server/solr-webapp/webapp/,AVAILABLE}{E:\www12\web\archiwum\solr\server/solr-webapp/webapp}
+2015-10-09 12:58:11.040 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@2794eab6{HTTP/1.1}{0.0.0.0:8983}
+2015-10-09 12:58:11.041 INFO  (main) [   ] o.e.j.s.Server Started @3490ms
+2015-10-09 12:58:11.297 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444395491192} status=0 QTime=33 
+2015-10-09 12:58:11.326 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=3 
+2015-10-09 12:58:12.838 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444395492815} status=0 QTime=0 
+2015-10-09 12:58:12.884 INFO  (qtp429313384-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1444395492863} status=0 QTime=1 
+2015-10-09 12:58:12.953 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1444395492938} status=0 QTime=1 
+2015-10-09 12:58:15.202 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&_=1444395495186} status=0 QTime=2 
+2015-10-09 12:58:23.138 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={set=org.apache.solr.core:TRACE&wt=json} status=0 QTime=2 
+2015-10-09 12:58:28.090 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444395508014} status=0 QTime=0 
+2015-10-09 12:58:39.395 INFO  (qtp429313384-17) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=data&name=Archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444395519355
+2015-10-09 12:58:39.399 INFO  (qtp429313384-17) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=Archidox, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=archidox, absoluteInstDir=E:\www12\web\archiwum\solr\server\solr\archidox\, dataDir=data}
+2015-10-09 12:58:39.399 INFO  (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'E:\www12\web\archiwum\solr\server\solr\archidox\'
+2015-10-09 12:58:39.443 INFO  (qtp429313384-17) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-10-09 12:58:39.443 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:luceneMatchVersion=[luceneMatchVersion: null]
+2015-10-09 12:58:39.443 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml luceneMatchVersion=5.3.1
+2015-10-09 12:58:39.459 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexDefaults
+2015-10-09 12:58:39.459 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional mainIndex
+2015-10-09 12:58:39.459 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:indexConfig=[indexConfig: null]
+2015-10-09 12:58:39.459 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/nrtMode
+2015-10-09 12:58:39.459 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:indexConfig=[indexConfig: null]
+2015-10-09 12:58:39.459 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/mergeScheduler
+2015-10-09 12:58:39.474 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/mergePolicy
+2015-10-09 12:58:39.474 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/luceneAutoCommit
+2015-10-09 12:58:39.474 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/useCompoundFile
+2015-10-09 12:58:39.474 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/maxBufferedDocs
+2015-10-09 12:58:39.474 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/maxMergeDocs
+2015-10-09 12:58:39.474 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/mergeFactor
+2015-10-09 12:58:39.474 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/ramBufferSizeMB
+2015-10-09 12:58:39.474 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/writeLockTimeout
+2015-10-09 12:58:39.474 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:indexConfig/lockType=[lockType: null]
+2015-10-09 12:58:39.474 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml indexConfig/lockType=native
+2015-10-09 12:58:39.474 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/termIndexInterval
+2015-10-09 12:58:39.490 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:indexConfig/infoStream=[infoStream: null]
+2015-10-09 12:58:39.490 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml indexConfig/infoStream=true
+2015-10-09 12:58:39.492 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/infoStream/@file
+2015-10-09 12:58:39.492 INFO  (qtp429313384-17) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-10-09 12:58:39.493 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/checkIntegrityAtMerge
+2015-10-09 12:58:39.497 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:query/maxBooleanClauses=[maxBooleanClauses: null]
+2015-10-09 12:58:39.498 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml query/maxBooleanClauses=1024
+2015-10-09 12:58:39.498 INFO  (qtp429313384-17) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2015-10-09 12:58:39.499 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional query/boolTofilterOptimizer
+2015-10-09 12:58:39.500 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional query/HashDocSet
+2015-10-09 12:58:39.501 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional query/useFilterForSortedQuery
+2015-10-09 12:58:39.503 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:query/queryResultWindowSize=[queryResultWindowSize: null]
+2015-10-09 12:58:39.503 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml query/queryResultWindowSize=20
+2015-10-09 12:58:39.504 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:query/queryResultMaxDocsCached=[queryResultMaxDocsCached: null]
+2015-10-09 12:58:39.504 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml query/queryResultMaxDocsCached=200
+2015-10-09 12:58:39.505 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:query/enableLazyFieldLoading=[enableLazyFieldLoading: null]
+2015-10-09 12:58:39.506 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml query/enableLazyFieldLoading=true
+2015-10-09 12:58:39.508 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:query/filterCache=[filterCache: null]
+2015-10-09 12:58:39.509 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.FastLRUCache
+2015-10-09 12:58:39.510 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.FastLRUCache
+2015-10-09 12:58:39.511 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.FastLRUCache
+2015-10-09 12:58:39.511 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.handler.FastLRUCache
+2015-10-09 12:58:39.512 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.search.FastLRUCache
+2015-10-09 12:58:39.518 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:query/queryResultCache=[queryResultCache: null]
+2015-10-09 12:58:39.519 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.LRUCache
+2015-10-09 12:58:39.519 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.LRUCache
+2015-10-09 12:58:39.520 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.LRUCache
+2015-10-09 12:58:39.520 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.handler.LRUCache
+2015-10-09 12:58:39.521 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.search.LRUCache
+2015-10-09 12:58:39.527 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:query/documentCache=[documentCache: null]
+2015-10-09 12:58:39.529 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional query/fieldValueCache
+2015-10-09 12:58:39.530 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:query/useColdSearcher=[useColdSearcher: null]
+2015-10-09 12:58:39.531 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml query/useColdSearcher=false
+2015-10-09 12:58:39.532 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:dataDir=[dataDir: null]
+2015-10-09 12:58:39.532 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml dataDir=
+2015-10-09 12:58:39.534 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.search.LRUCache
+2015-10-09 12:58:39.534 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.NoOpRegenerator
+2015-10-09 12:58:39.535 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.NoOpRegenerator
+2015-10-09 12:58:39.536 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.NoOpRegenerator
+2015-10-09 12:58:39.537 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.handler.NoOpRegenerator
+2015-10-09 12:58:39.537 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.search.NoOpRegenerator
+2015-10-09 12:58:39.574 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional //HashDocSet/@loadFactor
+2015-10-09 12:58:39.577 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional //HashDocSet/@maxSize
+2015-10-09 12:58:39.580 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:requestDispatcher/httpCaching/@never304=never304="true"
+2015-10-09 12:58:39.580 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml requestDispatcher/httpCaching/@never304=true
+2015-10-09 12:58:39.580 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional requestDispatcher/httpCaching/@etagSeed
+2015-10-09 12:58:39.580 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional requestDispatcher/httpCaching/@lastModFrom
+2015-10-09 12:58:39.580 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional requestDispatcher/httpCaching/cacheControl
+2015-10-09 12:58:39.580 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:jmx=[jmx: null]
+2015-10-09 12:58:39.580 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional jmx/@agentId
+2015-10-09 12:58:39.580 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional jmx/@serviceUrl
+2015-10-09 12:58:39.580 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional jmx/@rootName
+2015-10-09 12:58:39.580 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:query/maxWarmingSearchers=[maxWarmingSearchers: null]
+2015-10-09 12:58:39.580 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml query/maxWarmingSearchers=2
+2015-10-09 12:58:39.596 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional query/slowQueryThresholdMillis
+2015-10-09 12:58:39.627 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:updateHandler/@class=class="solr.DirectUpdateHandler2"
+2015-10-09 12:58:39.627 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml updateHandler/@class=solr.DirectUpdateHandler2
+2015-10-09 12:58:39.627 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional updateHandler/autoCommit/maxDocs
+2015-10-09 12:58:39.627 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:updateHandler/autoCommit/maxTime=[maxTime: null]
+2015-10-09 12:58:39.627 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml updateHandler/autoCommit/maxTime=15000
+2015-10-09 12:58:39.627 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional updateHandler/indexWriter/closeWaitsForMerges
+2015-10-09 12:58:39.627 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:updateHandler/autoCommit/openSearcher=[openSearcher: null]
+2015-10-09 12:58:39.627 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml updateHandler/autoCommit/openSearcher=false
+2015-10-09 12:58:39.627 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional updateHandler/autoSoftCommit/maxDocs
+2015-10-09 12:58:39.627 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:updateHandler/autoSoftCommit/maxTime=[maxTime: null]
+2015-10-09 12:58:39.627 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml updateHandler/autoSoftCommit/maxTime=-1
+2015-10-09 12:58:39.627 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml missing optional updateHandler/commitWithin/softCommit
+2015-10-09 12:58:39.627 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:requestDispatcher/requestParsers/@multipartUploadLimitInKB=multipartUploadLimitInKB="2048000"
+2015-10-09 12:58:39.627 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml requestDispatcher/requestParsers/@multipartUploadLimitInKB=2048000
+2015-10-09 12:58:39.627 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:requestDispatcher/requestParsers/@formdataUploadLimitInKB=formdataUploadLimitInKB="2048"
+2015-10-09 12:58:39.627 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml requestDispatcher/requestParsers/@formdataUploadLimitInKB=2048
+2015-10-09 12:58:39.627 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:requestDispatcher/requestParsers/@enableRemoteStreaming=enableRemoteStreaming="true"
+2015-10-09 12:58:39.627 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml requestDispatcher/requestParsers/@enableRemoteStreaming=true
+2015-10-09 12:58:39.642 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:requestDispatcher/@handleSelect=handleSelect="false"
+2015-10-09 12:58:39.642 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml requestDispatcher/@handleSelect=false
+2015-10-09 12:58:39.642 TRACE (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml:requestDispatcher/requestParsers/@addHttpRequestToContext=addHttpRequestToContext="false"
+2015-10-09 12:58:39.642 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config solrconfig.xml requestDispatcher/requestParsers/@addHttpRequestToContext=false
+2015-10-09 12:58:39.642 INFO  (qtp429313384-17) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-10-09 12:58:39.642 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.ClassicIndexSchemaFactory
+2015-10-09 12:58:39.642 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.ClassicIndexSchemaFactory
+2015-10-09 12:58:39.642 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.ClassicIndexSchemaFactory
+2015-10-09 12:58:39.642 INFO  (qtp429313384-17) [   ] o.a.s.s.IndexSchema Reading Solr Schema from E:\www12\web\archiwum\solr\server\solr\archidox\conf\schema.xml
+2015-10-09 12:58:39.719 INFO  (qtp429313384-17) [   ] o.a.s.s.IndexSchema [Archidox] Schema name=archidox
+2015-10-09 12:58:39.723 TRACE (qtp429313384-17) [   ] o.a.s.c.Config schema:/schema/@version=version="1.5"
+2015-10-09 12:58:39.723 DEBUG (qtp429313384-17) [   ] o.a.s.c.Config schema /schema/@version=1.5
+2015-10-09 12:58:39.728 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.StrField
+2015-10-09 12:58:39.728 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.StrField
+2015-10-09 12:58:39.728 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.StrField
+2015-10-09 12:58:39.759 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.BoolField
+2015-10-09 12:58:39.759 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.BoolField
+2015-10-09 12:58:39.759 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.BoolField
+2015-10-09 12:58:39.759 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.TrieIntField
+2015-10-09 12:58:39.774 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.TrieIntField
+2015-10-09 12:58:39.774 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.TrieIntField
+2015-10-09 12:58:39.774 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.TrieFloatField
+2015-10-09 12:58:39.774 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.TrieFloatField
+2015-10-09 12:58:39.774 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.TrieFloatField
+2015-10-09 12:58:39.790 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.TrieLongField
+2015-10-09 12:58:39.790 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.TrieLongField
+2015-10-09 12:58:39.790 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.TrieLongField
+2015-10-09 12:58:39.790 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.TrieDoubleField
+2015-10-09 12:58:39.790 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.TrieDoubleField
+2015-10-09 12:58:39.790 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.TrieDoubleField
+2015-10-09 12:58:39.819 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.TrieDateField
+2015-10-09 12:58:39.819 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.TrieDateField
+2015-10-09 12:58:39.820 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.TrieDateField
+2015-10-09 12:58:39.827 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.BinaryField
+2015-10-09 12:58:39.828 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.BinaryField
+2015-10-09 12:58:39.828 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.BinaryField
+2015-10-09 12:58:39.828 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.RandomSortField
+2015-10-09 12:58:39.828 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.RandomSortField
+2015-10-09 12:58:39.828 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.RandomSortField
+2015-10-09 12:58:39.828 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.TextField
+2015-10-09 12:58:39.828 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.TextField
+2015-10-09 12:58:39.828 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.TextField
+2015-10-09 12:58:39.843 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='Whitespace'
+2015-10-09 12:58:39.843 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='Standard'
+2015-10-09 12:58:39.843 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='Stop'
+2015-10-09 12:58:39.859 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='Synonym'
+2015-10-09 12:58:39.859 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='LowerCase'
+2015-10-09 12:58:39.874 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='EnglishPossessive'
+2015-10-09 12:58:39.874 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='KeywordMarker'
+2015-10-09 12:58:39.874 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='PorterStem'
+2015-10-09 12:58:39.892 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='Morfologik'
+2015-10-09 12:58:39.898 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='WordDelimiter'
+2015-10-09 12:58:39.949 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='EnglishMinimalStem'
+2015-10-09 12:58:39.950 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='RemoveDuplicates'
+2015-10-09 12:58:39.992 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='ReversedWildcard'
+2015-10-09 12:58:39.992 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.ReversedWildcardFilterFactory
+2015-10-09 12:58:39.992 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.ReversedWildcardFilterFactory
+2015-10-09 12:58:40.008 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='Keyword'
+2015-10-09 12:58:40.009 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='Trim'
+2015-10-09 12:58:40.010 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying to load class from analysis SPI using name='PatternReplace'
+2015-10-09 12:58:40.021 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.PointType
+2015-10-09 12:58:40.021 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.PointType
+2015-10-09 12:58:40.022 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.PointType
+2015-10-09 12:58:40.028 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.LatLonType
+2015-10-09 12:58:40.028 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.LatLonType
+2015-10-09 12:58:40.028 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.LatLonType
+2015-10-09 12:58:40.028 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.SpatialRecursivePrefixTreeFieldType
+2015-10-09 12:58:40.028 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.SpatialRecursivePrefixTreeFieldType
+2015-10-09 12:58:40.028 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.SpatialRecursivePrefixTreeFieldType
+2015-10-09 12:58:40.078 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.BBoxField
+2015-10-09 12:58:40.078 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.BBoxField
+2015-10-09 12:58:40.078 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.BBoxField
+2015-10-09 12:58:40.093 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.CurrencyField
+2015-10-09 12:58:40.093 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.CurrencyField
+2015-10-09 12:58:40.093 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.CurrencyField
+2015-10-09 12:58:40.124 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.FileExchangeRateProvider
+2015-10-09 12:58:40.124 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.analysis.FileExchangeRateProvider
+2015-10-09 12:58:40.124 TRACE (qtp429313384-17) [   ] o.a.s.c.SolrResourceLoader Trying class name org.apache.solr.schema.FileExchangeRateProvider
+2015-10-09 12:58:40.147 INFO  (qtp429313384-17) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-10-09 12:58:40.277 ERROR (qtp429313384-17) [   ] o.a.s.c.CoreContainer Error creating core [Archidox]: Could not load conf for core Archidox: java.nio.charset.MalformedInputException: Input length = 1
+org.apache.solr.common.SolrException: Could not load conf for core Archidox: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:721)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:697)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:178)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.apache.lucene.analysis.util.WordlistLoader.getLines(WordlistLoader.java:217)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getLines(AbstractAnalysisFactory.java:252)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getWordSet(AbstractAnalysisFactory.java:241)
+	at org.apache.lucene.analysis.core.StopFilterFactory.inform(StopFilterFactory.java:109)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	... 34 more
+2015-10-09 12:58:40.295 ERROR (qtp429313384-17) [   ] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Error CREATEing SolrCore 'Archidox': Unable to create core [Archidox] Caused by: Input length = 1
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:662)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [Archidox]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:737)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:697)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	... 27 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core Archidox: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:721)
+	... 29 more
+Caused by: java.lang.RuntimeException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:178)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.apache.lucene.analysis.util.WordlistLoader.getLines(WordlistLoader.java:217)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getLines(AbstractAnalysisFactory.java:252)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getWordSet(AbstractAnalysisFactory.java:241)
+	at org.apache.lucene.analysis.core.StopFilterFactory.inform(StopFilterFactory.java:109)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	... 34 more
+
+2015-10-09 12:58:40.295 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=Archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444395519355} status=400 QTime=904 
+2015-10-09 12:58:42.487 INFO  (qtp429313384-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1444395522446} status=0 QTime=1 
+2015-10-09 12:58:52.514 INFO  (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395520295&_=1444395532514} status=0 QTime=0 
+2015-10-09 12:59:02.562 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395520295&_=1444395542546} status=0 QTime=0 
+2015-10-09 12:59:13.480 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395520295&_=1444395553467} status=0 QTime=0 
+2015-10-09 12:59:24.495 INFO  (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395520295&_=1444395564467} status=0 QTime=0 
+2015-10-09 12:59:35.477 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395520295&_=1444395575477} status=0 QTime=0 
+2015-10-09 12:59:46.494 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395520295&_=1444395586479} status=0 QTime=0 
+2015-10-09 12:59:56.526 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395520295&_=1444395596526} status=0 QTime=0 
+2015-10-09 13:00:06.562 INFO  (qtp429313384-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395520295&_=1444395606562} status=0 QTime=0 
+2015-10-09 13:00:10.593 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@2794eab6{HTTP/1.1}{0.0.0.0:8983}
+2015-10-09 13:00:10.593 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=996796369
+2015-10-09 13:00:10.608 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@239963d8{/solr,file:/E:/www12/web/archiwum/solr/server/solr-webapp/webapp/,UNAVAILABLE}{E:\www12\web\archiwum\solr\server/solr-webapp/webapp}

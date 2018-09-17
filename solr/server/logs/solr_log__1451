@@ -1,0 +1,145 @@
+2015-10-09 12:49:19.368 INFO  (main) [   ] o.e.j.u.log Logging initialized @733ms
+2015-10-09 12:49:19.698 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-10-09 12:49:19.714 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-10-09 12:49:19.714 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/E:/www12/web/archiwum/solr/server/contexts/] at interval 0
+2015-10-09 12:49:21.357 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-10-09 12:49:21.382 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@239963d8{/solr,file:/E:/www12/web/archiwum/solr/server/solr-webapp/webapp/,STARTING}{E:\www12\web\archiwum\solr\server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-10-09 12:49:21.390 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1454127753@56ac3a89
+2015-10-09 12:49:21.408 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-10-09 12:49:21.408 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: E:\www12\web\archiwum\solr\server\solr
+2015-10-09 12:49:21.408 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'E:\www12\web\archiwum\solr\server\solr\'
+2015-10-09 12:49:21.579 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from E:\www12\web\archiwum\solr\server\solr\solr.xml
+2015-10-09 12:49:21.657 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: E:\www12\web\archiwum\solr\server\solr
+2015-10-09 12:49:21.685 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 996796369
+2015-10-09 12:49:21.686 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=E:\www12\web\archiwum\solr\server\solr\]
+2015-10-09 12:49:21.686 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: E:\www12\web\archiwum\solr\server\solr\lib
+2015-10-09 12:49:21.686 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: E:\www12\web\archiwum\solr\server\solr\lib).
+2015-10-09 12:49:21.707 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-10-09 12:49:21.916 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-10-09 12:49:21.919 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-10-09 12:49:21.920 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-10-09 12:49:21.922 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-10-09 12:49:21.923 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-10-09 12:49:21.982 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath E:\www12\web\archiwum\solr\server\solr
+2015-10-09 12:49:21.996 INFO  (main) [   ] o.a.s.c.CoresLocator Found 0 core definitions
+2015-10-09 12:49:22.001 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=E:\www12\web\archiwum\solr\server
+2015-10-09 12:49:22.001 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-10-09 12:49:22.018 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@239963d8{/solr,file:/E:/www12/web/archiwum/solr/server/solr-webapp/webapp/,AVAILABLE}{E:\www12\web\archiwum\solr\server/solr-webapp/webapp}
+2015-10-09 12:49:22.093 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@2794eab6{HTTP/1.1}{0.0.0.0:8983}
+2015-10-09 12:49:22.093 INFO  (main) [   ] o.e.j.s.Server Started @3469ms
+2015-10-09 12:49:22.625 INFO  (qtp429313384-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=34 
+2015-10-09 12:49:30.134 INFO  (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444394970098} status=0 QTime=8 
+2015-10-09 12:49:30.181 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1444394970162} status=0 QTime=0 
+2015-10-09 12:49:30.217 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444394970203} status=0 QTime=0 
+2015-10-09 12:49:37.952 INFO  (qtp429313384-22) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=data&name=archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444394977937
+2015-10-09 12:49:37.952 INFO  (qtp429313384-22) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=archidox, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=archidox, absoluteInstDir=E:\www12\web\archiwum\solr\server\solr\archidox\, dataDir=data}
+2015-10-09 12:49:37.952 INFO  (qtp429313384-22) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'E:\www12\web\archiwum\solr\server\solr\archidox\'
+2015-10-09 12:49:38.011 INFO  (qtp429313384-22) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-10-09 12:49:38.024 INFO  (qtp429313384-22) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-10-09 12:49:38.046 INFO  (qtp429313384-22) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2015-10-09 12:49:38.170 INFO  (qtp429313384-22) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-10-09 12:49:38.185 INFO  (qtp429313384-22) [   ] o.a.s.s.IndexSchema Reading Solr Schema from E:\www12\web\archiwum\solr\server\solr\archidox\conf\schema.xml
+2015-10-09 12:49:38.237 INFO  (qtp429313384-22) [   ] o.a.s.s.IndexSchema [archidox] Schema name=archidox
+2015-10-09 12:49:38.772 ERROR (qtp429313384-22) [   ] o.a.s.c.CoreContainer Error creating core [archidox]: Could not load conf for core archidox: Unknown fieldType 'status' specified on field type. Schema file is E:\www12\web\archiwum\solr\server\solr\archidox\conf\schema.xml
+org.apache.solr.common.SolrException: Could not load conf for core archidox: Unknown fieldType 'status' specified on field type. Schema file is E:\www12\web\archiwum\solr\server\solr\archidox\conf\schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:721)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:697)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'status' specified on field type. Schema file is E:\www12\web\archiwum\solr\server\solr\archidox\conf\schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'status' specified on field type
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:646)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:492)
+	... 35 more
+2015-10-09 12:49:38.772 ERROR (qtp429313384-22) [   ] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Error CREATEing SolrCore 'archidox': Unable to create core [archidox] Caused by: Unknown fieldType 'status' specified on field type
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:662)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [archidox]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:737)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:697)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	... 27 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core archidox: Unknown fieldType 'status' specified on field type. Schema file is E:\www12\web\archiwum\solr\server\solr\archidox\conf\schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:721)
+	... 29 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'status' specified on field type. Schema file is E:\www12\web\archiwum\solr\server\solr\archidox\conf\schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'status' specified on field type
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:646)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:492)
+	... 35 more
+
+2015-10-09 12:49:38.772 INFO  (qtp429313384-22) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444394977937} status=400 QTime=829 
+2015-10-09 12:51:11.275 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444395071261} status=0 QTime=0 
+2015-10-09 12:51:11.337 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1444395071322} status=0 QTime=2 
+2015-10-09 12:51:11.391 INFO  (qtp429313384-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444395071371} status=0 QTime=0 
+2015-10-09 12:51:28.769 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@2794eab6{HTTP/1.1}{0.0.0.0:8983}
+2015-10-09 12:51:28.769 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=996796369
+2015-10-09 12:51:28.769 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@239963d8{/solr,file:/E:/www12/web/archiwum/solr/server/solr-webapp/webapp/,UNAVAILABLE}{E:\www12\web\archiwum\solr\server/solr-webapp/webapp}

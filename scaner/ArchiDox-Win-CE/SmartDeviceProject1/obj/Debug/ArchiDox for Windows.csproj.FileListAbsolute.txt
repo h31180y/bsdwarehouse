@@ -1,0 +1,25 @@
+C:\Users\mkowalczyk\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\bin\Debug\ArchiDox for Windows.exe
+C:\Users\mkowalczyk\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\bin\Debug\ArchiDox for Windows.pdb
+C:\Users\mkowalczyk\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mkowalczyk\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\obj\Debug\ArchiDox.Properties.Resources.resources
+C:\Users\mkowalczyk\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\obj\Debug\ArchiDox for Windows.csproj.GenerateResource.Cache
+C:\Users\mkowalczyk\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\obj\Debug\ArchiDox for Windows.exe
+C:\Users\mkowalczyk\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\obj\Debug\ArchiDox for Windows.pdb
+C:\Users\mkowalczyk\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\obj\Debug\ArchiDox.LoginForm.resources
+C:\Users\mkowalczyk\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\Users\mkowalczyk\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\bin\Debug\Newtonsoft.Json.Compact.pdb
+C:\Users\mkowalczyk\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\bin\Debug\Newtonsoft.Json.Compact.xml
+C:\Users\mkowalczyk\Documents\Visual Studio 2008\Projects\SmartDeviceProject1\SmartDeviceProject1\obj\Debug\ArchiDox.SearchForm.resources
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\bin\Debug\ArchiDox for Windows.exe
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\bin\Debug\ArchiDox for Windows.pdb
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\obj\Debug\ResolveAssemblyReference.cache
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\obj\Debug\ArchiDox.ReceptionForm.resources
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\obj\Debug\ArchiDox.SearchForm.resources
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\obj\Debug\ArchiDox.LoginForm.resources
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\obj\Debug\ArchiDox.Properties.Resources.resources
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\obj\Debug\ArchiDox for Windows.csproj.GenerateResource.Cache
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\obj\Debug\ArchiDox for Windows.exe
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\obj\Debug\ArchiDox for Windows.pdb
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\obj\Debug\ArchiDox.CustomerReceptionForm.resources
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\obj\Debug\ArchiDox.PinForm.resources
+E:\www12\web\archiwum\scaner\ArchiDox-Win-CE\SmartDeviceProject1\obj\Debug\ArchiDox.BoxReceptionForm.resources

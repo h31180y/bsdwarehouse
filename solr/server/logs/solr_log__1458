@@ -1,0 +1,646 @@
+2015-10-09 12:54:10.883 INFO  (main) [   ] o.e.j.u.log Logging initialized @665ms
+2015-10-09 12:54:11.203 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-10-09 12:54:11.232 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-10-09 12:54:11.235 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/E:/www12/web/archiwum/solr/server/contexts/] at interval 0
+2015-10-09 12:54:12.667 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-10-09 12:54:12.683 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@239963d8{/solr,file:/E:/www12/web/archiwum/solr/server/solr-webapp/webapp/,STARTING}{E:\www12\web\archiwum\solr\server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-10-09 12:54:12.683 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1454127753@56ac3a89
+2015-10-09 12:54:12.714 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-10-09 12:54:12.714 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: E:\www12\web\archiwum\solr\server\solr
+2015-10-09 12:54:12.714 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'E:\www12\web\archiwum\solr\server\solr\'
+2015-10-09 12:54:12.870 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from E:\www12\web\archiwum\solr\server\solr\solr.xml
+2015-10-09 12:54:12.932 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: E:\www12\web\archiwum\solr\server\solr
+2015-10-09 12:54:12.965 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 996796369
+2015-10-09 12:54:12.965 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=E:\www12\web\archiwum\solr\server\solr\]
+2015-10-09 12:54:12.965 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: E:\www12\web\archiwum\solr\server\solr\lib
+2015-10-09 12:54:12.965 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: E:\www12\web\archiwum\solr\server\solr\lib).
+2015-10-09 12:54:12.980 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-10-09 12:54:13.152 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-10-09 12:54:13.167 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-10-09 12:54:13.167 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-10-09 12:54:13.167 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-10-09 12:54:13.167 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-10-09 12:54:13.199 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath E:\www12\web\archiwum\solr\server\solr
+2015-10-09 12:54:13.214 INFO  (main) [   ] o.a.s.c.CoresLocator Found 0 core definitions
+2015-10-09 12:54:13.214 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=E:\www12\web\archiwum\solr\server
+2015-10-09 12:54:13.214 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-10-09 12:54:13.230 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@239963d8{/solr,file:/E:/www12/web/archiwum/solr/server/solr-webapp/webapp/,AVAILABLE}{E:\www12\web\archiwum\solr\server/solr-webapp/webapp}
+2015-10-09 12:54:13.308 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@5c5ee2ad{HTTP/1.1}{0.0.0.0:8983}
+2015-10-09 12:54:13.308 INFO  (main) [   ] o.e.j.s.Server Started @3101ms
+2015-10-09 12:54:13.620 INFO  (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=48 
+2015-10-09 12:54:14.774 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444395254750} status=0 QTime=4 
+2015-10-09 12:54:16.924 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444395256892} status=0 QTime=0 
+2015-10-09 12:54:16.958 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1444395256944} status=0 QTime=0 
+2015-10-09 12:54:17.005 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1444395256991} status=0 QTime=2 
+2015-10-09 12:54:21.861 INFO  (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444395261846} status=0 QTime=0 
+2015-10-09 12:54:31.052 INFO  (qtp429313384-15) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=data&name=archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444395271035
+2015-10-09 12:54:31.067 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=archidox, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=archidox, absoluteInstDir=E:\www12\web\archiwum\solr\server\solr\archidox\, dataDir=data}
+2015-10-09 12:54:31.067 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'E:\www12\web\archiwum\solr\server\solr\archidox\'
+2015-10-09 12:54:31.137 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-10-09 12:54:31.187 INFO  (qtp429313384-15) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-10-09 12:54:31.194 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2015-10-09 12:54:31.300 INFO  (qtp429313384-15) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-10-09 12:54:31.389 INFO  (qtp429313384-15) [   ] o.a.s.s.IndexSchema Reading Solr Schema from E:\www12\web\archiwum\solr\server\solr\archidox\conf\schema.xml
+2015-10-09 12:54:31.455 INFO  (qtp429313384-15) [   ] o.a.s.s.IndexSchema [archidox] Schema name=archidox
+2015-10-09 12:54:32.350 INFO  (qtp429313384-15) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-10-09 12:54:32.484 ERROR (qtp429313384-15) [   ] o.a.s.c.CoreContainer Error creating core [archidox]: Could not load conf for core archidox: java.nio.charset.MalformedInputException: Input length = 1
+org.apache.solr.common.SolrException: Could not load conf for core archidox: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:721)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:697)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:178)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.apache.lucene.analysis.util.WordlistLoader.getLines(WordlistLoader.java:217)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getLines(AbstractAnalysisFactory.java:252)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getWordSet(AbstractAnalysisFactory.java:241)
+	at org.apache.lucene.analysis.core.StopFilterFactory.inform(StopFilterFactory.java:109)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	... 34 more
+2015-10-09 12:54:32.484 ERROR (qtp429313384-15) [   ] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Error CREATEing SolrCore 'archidox': Unable to create core [archidox] Caused by: Input length = 1
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:662)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [archidox]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:737)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:697)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	... 27 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core archidox: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:721)
+	... 29 more
+Caused by: java.lang.RuntimeException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:178)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.apache.lucene.analysis.util.WordlistLoader.getLines(WordlistLoader.java:217)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getLines(AbstractAnalysisFactory.java:252)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getWordSet(AbstractAnalysisFactory.java:241)
+	at org.apache.lucene.analysis.core.StopFilterFactory.inform(StopFilterFactory.java:109)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	... 34 more
+
+2015-10-09 12:54:32.484 INFO  (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444395271035} status=400 QTime=1431 
+2015-10-09 12:54:38.585 INFO  (qtp429313384-16) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=data&name=archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444395278550
+2015-10-09 12:54:38.586 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=archidox, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=archidox, absoluteInstDir=E:\www12\web\archiwum\solr\server\solr\archidox\, dataDir=data}
+2015-10-09 12:54:38.586 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'E:\www12\web\archiwum\solr\server\solr\archidox\'
+2015-10-09 12:54:38.626 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-10-09 12:54:38.667 INFO  (qtp429313384-16) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-10-09 12:54:38.668 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2015-10-09 12:54:38.725 INFO  (qtp429313384-16) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-10-09 12:54:38.726 INFO  (qtp429313384-16) [   ] o.a.s.s.IndexSchema Reading Solr Schema from E:\www12\web\archiwum\solr\server\solr\archidox\conf\schema.xml
+2015-10-09 12:54:38.755 INFO  (qtp429313384-16) [   ] o.a.s.s.IndexSchema [archidox] Schema name=archidox
+2015-10-09 12:54:38.862 INFO  (qtp429313384-16) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-10-09 12:54:38.877 ERROR (qtp429313384-16) [   ] o.a.s.c.CoreContainer Error creating core [archidox]: Could not load conf for core archidox: java.nio.charset.MalformedInputException: Input length = 1
+org.apache.solr.common.SolrException: Could not load conf for core archidox: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:721)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:697)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:178)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.apache.lucene.analysis.util.WordlistLoader.getLines(WordlistLoader.java:217)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getLines(AbstractAnalysisFactory.java:252)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getWordSet(AbstractAnalysisFactory.java:241)
+	at org.apache.lucene.analysis.core.StopFilterFactory.inform(StopFilterFactory.java:109)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	... 34 more
+2015-10-09 12:54:38.877 ERROR (qtp429313384-16) [   ] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Error CREATEing SolrCore 'archidox': Unable to create core [archidox] Caused by: Input length = 1
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:662)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [archidox]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:737)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:697)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	... 27 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core archidox: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:721)
+	... 29 more
+Caused by: java.lang.RuntimeException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:178)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.apache.lucene.analysis.util.WordlistLoader.getLines(WordlistLoader.java:217)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getLines(AbstractAnalysisFactory.java:252)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getWordSet(AbstractAnalysisFactory.java:241)
+	at org.apache.lucene.analysis.core.StopFilterFactory.inform(StopFilterFactory.java:109)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	... 34 more
+
+2015-10-09 12:54:38.877 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444395278550} status=400 QTime=306 
+2015-10-09 12:55:08.362 INFO  (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1444395308348} status=0 QTime=2 
+2015-10-09 12:55:18.411 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395278877&_=1444395318396} status=0 QTime=0 
+2015-10-09 12:55:28.462 INFO  (qtp429313384-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395278877&_=1444395328445} status=0 QTime=3 
+2015-10-09 12:55:39.550 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395278877&_=1444395339473} status=0 QTime=0 
+2015-10-09 12:55:50.485 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395278877&_=1444395350470} status=0 QTime=0 
+2015-10-09 12:56:01.530 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395278877&_=1444395361473} status=0 QTime=0 
+2015-10-09 12:56:11.550 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395278877&_=1444395371539} status=0 QTime=0 
+2015-10-09 12:56:21.561 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444395278877&_=1444395381561} status=0 QTime=0 
+2015-10-09 12:56:27.801 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444395387765} status=0 QTime=0 
+2015-10-09 12:56:38.894 INFO  (qtp429313384-20) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=data&name=archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444395398843
+2015-10-09 12:56:38.895 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=archidox, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=archidox, absoluteInstDir=E:\www12\web\archiwum\solr\server\solr\archidox\, dataDir=data}
+2015-10-09 12:56:38.895 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'E:\www12\web\archiwum\solr\server\solr\archidox\'
+2015-10-09 12:56:38.931 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-10-09 12:56:38.937 INFO  (qtp429313384-20) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-10-09 12:56:38.938 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2015-10-09 12:56:38.947 INFO  (qtp429313384-20) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-10-09 12:56:38.962 INFO  (qtp429313384-20) [   ] o.a.s.s.IndexSchema Reading Solr Schema from E:\www12\web\archiwum\solr\server\solr\archidox\conf\schema.xml
+2015-10-09 12:56:38.978 INFO  (qtp429313384-20) [   ] o.a.s.s.IndexSchema [archidox] Schema name=archidox
+2015-10-09 12:56:39.088 INFO  (qtp429313384-20) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-10-09 12:56:39.102 ERROR (qtp429313384-20) [   ] o.a.s.c.CoreContainer Error creating core [archidox]: Could not load conf for core archidox: java.nio.charset.MalformedInputException: Input length = 1
+org.apache.solr.common.SolrException: Could not load conf for core archidox: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:721)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:697)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:178)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.apache.lucene.analysis.util.WordlistLoader.getLines(WordlistLoader.java:217)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getLines(AbstractAnalysisFactory.java:252)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getWordSet(AbstractAnalysisFactory.java:241)
+	at org.apache.lucene.analysis.core.StopFilterFactory.inform(StopFilterFactory.java:109)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	... 34 more
+2015-10-09 12:56:39.106 ERROR (qtp429313384-20) [   ] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Error CREATEing SolrCore 'archidox': Unable to create core [archidox] Caused by: Input length = 1
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:662)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [archidox]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:737)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:697)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	... 27 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core archidox: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:721)
+	... 29 more
+Caused by: java.lang.RuntimeException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:178)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.apache.lucene.analysis.util.WordlistLoader.getLines(WordlistLoader.java:217)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getLines(AbstractAnalysisFactory.java:252)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getWordSet(AbstractAnalysisFactory.java:241)
+	at org.apache.lucene.analysis.core.StopFilterFactory.inform(StopFilterFactory.java:109)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	... 34 more
+
+2015-10-09 12:56:39.107 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444395398843} status=400 QTime=212 
+2015-10-09 12:56:43.587 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1444395403576} status=0 QTime=1 
+2015-10-09 12:56:49.356 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&_=1444395409337} status=0 QTime=4 
+2015-10-09 12:57:05.152 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={set=org.apache.solr.core:DEBUG&wt=json} status=0 QTime=1 
+2015-10-09 12:57:13.699 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1444395433684} status=0 QTime=0 
+2015-10-09 12:57:16.447 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&_=1444395436428} status=0 QTime=2 
+2015-10-09 12:57:33.822 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={set=org.apache.solr.core:TRACE&wt=json} status=0 QTime=5 
+2015-10-09 12:57:36.490 INFO  (qtp429313384-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444395456465} status=0 QTime=0 
+2015-10-09 12:57:46.440 INFO  (qtp429313384-15) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=data&name=archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444395465785
+2015-10-09 12:57:46.440 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=archidox, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=archidox, absoluteInstDir=E:\www12\web\archiwum\solr\server\solr\archidox\, dataDir=data}
+2015-10-09 12:57:46.441 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'E:\www12\web\archiwum\solr\server\solr\archidox\'
+2015-10-09 12:57:46.470 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-10-09 12:57:46.471 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:luceneMatchVersion=[luceneMatchVersion: null]
+2015-10-09 12:57:46.472 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml luceneMatchVersion=5.3.1
+2015-10-09 12:57:46.472 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexDefaults
+2015-10-09 12:57:46.473 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional mainIndex
+2015-10-09 12:57:46.473 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:indexConfig=[indexConfig: null]
+2015-10-09 12:57:46.474 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/nrtMode
+2015-10-09 12:57:46.475 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:indexConfig=[indexConfig: null]
+2015-10-09 12:57:46.475 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/mergeScheduler
+2015-10-09 12:57:46.476 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/mergePolicy
+2015-10-09 12:57:46.476 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/luceneAutoCommit
+2015-10-09 12:57:46.477 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/useCompoundFile
+2015-10-09 12:57:46.477 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/maxBufferedDocs
+2015-10-09 12:57:46.478 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/maxMergeDocs
+2015-10-09 12:57:46.478 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/mergeFactor
+2015-10-09 12:57:46.479 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/ramBufferSizeMB
+2015-10-09 12:57:46.479 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/writeLockTimeout
+2015-10-09 12:57:46.480 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:indexConfig/lockType=[lockType: null]
+2015-10-09 12:57:46.480 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml indexConfig/lockType=native
+2015-10-09 12:57:46.481 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/termIndexInterval
+2015-10-09 12:57:46.482 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:indexConfig/infoStream=[infoStream: null]
+2015-10-09 12:57:46.482 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml indexConfig/infoStream=true
+2015-10-09 12:57:46.482 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/infoStream/@file
+2015-10-09 12:57:46.483 INFO  (qtp429313384-15) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-10-09 12:57:46.483 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional indexConfig/checkIntegrityAtMerge
+2015-10-09 12:57:46.484 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:query/maxBooleanClauses=[maxBooleanClauses: null]
+2015-10-09 12:57:46.484 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml query/maxBooleanClauses=1024
+2015-10-09 12:57:46.484 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2015-10-09 12:57:46.485 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional query/boolTofilterOptimizer
+2015-10-09 12:57:46.485 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional query/HashDocSet
+2015-10-09 12:57:46.486 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional query/useFilterForSortedQuery
+2015-10-09 12:57:46.487 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:query/queryResultWindowSize=[queryResultWindowSize: null]
+2015-10-09 12:57:46.487 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml query/queryResultWindowSize=20
+2015-10-09 12:57:46.487 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:query/queryResultMaxDocsCached=[queryResultMaxDocsCached: null]
+2015-10-09 12:57:46.487 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml query/queryResultMaxDocsCached=200
+2015-10-09 12:57:46.488 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:query/enableLazyFieldLoading=[enableLazyFieldLoading: null]
+2015-10-09 12:57:46.488 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml query/enableLazyFieldLoading=true
+2015-10-09 12:57:46.489 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:query/filterCache=[filterCache: null]
+2015-10-09 12:57:46.489 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:query/queryResultCache=[queryResultCache: null]
+2015-10-09 12:57:46.490 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:query/documentCache=[documentCache: null]
+2015-10-09 12:57:46.491 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional query/fieldValueCache
+2015-10-09 12:57:46.491 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:query/useColdSearcher=[useColdSearcher: null]
+2015-10-09 12:57:46.491 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml query/useColdSearcher=false
+2015-10-09 12:57:46.492 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:dataDir=[dataDir: null]
+2015-10-09 12:57:46.492 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml dataDir=
+2015-10-09 12:57:46.494 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional //HashDocSet/@loadFactor
+2015-10-09 12:57:46.495 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional //HashDocSet/@maxSize
+2015-10-09 12:57:46.496 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:requestDispatcher/httpCaching/@never304=never304="true"
+2015-10-09 12:57:46.496 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml requestDispatcher/httpCaching/@never304=true
+2015-10-09 12:57:46.496 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional requestDispatcher/httpCaching/@etagSeed
+2015-10-09 12:57:46.497 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional requestDispatcher/httpCaching/@lastModFrom
+2015-10-09 12:57:46.497 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional requestDispatcher/httpCaching/cacheControl
+2015-10-09 12:57:46.498 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:jmx=[jmx: null]
+2015-10-09 12:57:46.499 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional jmx/@agentId
+2015-10-09 12:57:46.499 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional jmx/@serviceUrl
+2015-10-09 12:57:46.500 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional jmx/@rootName
+2015-10-09 12:57:46.500 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:query/maxWarmingSearchers=[maxWarmingSearchers: null]
+2015-10-09 12:57:46.500 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml query/maxWarmingSearchers=2
+2015-10-09 12:57:46.501 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional query/slowQueryThresholdMillis
+2015-10-09 12:57:46.510 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:updateHandler/@class=class="solr.DirectUpdateHandler2"
+2015-10-09 12:57:46.510 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml updateHandler/@class=solr.DirectUpdateHandler2
+2015-10-09 12:57:46.511 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional updateHandler/autoCommit/maxDocs
+2015-10-09 12:57:46.511 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:updateHandler/autoCommit/maxTime=[maxTime: null]
+2015-10-09 12:57:46.511 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml updateHandler/autoCommit/maxTime=15000
+2015-10-09 12:57:46.512 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional updateHandler/indexWriter/closeWaitsForMerges
+2015-10-09 12:57:46.512 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:updateHandler/autoCommit/openSearcher=[openSearcher: null]
+2015-10-09 12:57:46.513 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml updateHandler/autoCommit/openSearcher=false
+2015-10-09 12:57:46.513 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional updateHandler/autoSoftCommit/maxDocs
+2015-10-09 12:57:46.514 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:updateHandler/autoSoftCommit/maxTime=[maxTime: null]
+2015-10-09 12:57:46.514 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml updateHandler/autoSoftCommit/maxTime=-1
+2015-10-09 12:57:46.515 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml missing optional updateHandler/commitWithin/softCommit
+2015-10-09 12:57:46.515 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:requestDispatcher/requestParsers/@multipartUploadLimitInKB=multipartUploadLimitInKB="2048000"
+2015-10-09 12:57:46.515 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml requestDispatcher/requestParsers/@multipartUploadLimitInKB=2048000
+2015-10-09 12:57:46.516 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:requestDispatcher/requestParsers/@formdataUploadLimitInKB=formdataUploadLimitInKB="2048"
+2015-10-09 12:57:46.516 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml requestDispatcher/requestParsers/@formdataUploadLimitInKB=2048
+2015-10-09 12:57:46.517 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:requestDispatcher/requestParsers/@enableRemoteStreaming=enableRemoteStreaming="true"
+2015-10-09 12:57:46.517 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml requestDispatcher/requestParsers/@enableRemoteStreaming=true
+2015-10-09 12:57:46.517 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:requestDispatcher/@handleSelect=handleSelect="false"
+2015-10-09 12:57:46.517 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml requestDispatcher/@handleSelect=false
+2015-10-09 12:57:46.519 TRACE (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml:requestDispatcher/requestParsers/@addHttpRequestToContext=addHttpRequestToContext="false"
+2015-10-09 12:57:46.520 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config solrconfig.xml requestDispatcher/requestParsers/@addHttpRequestToContext=false
+2015-10-09 12:57:46.520 INFO  (qtp429313384-15) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-10-09 12:57:46.527 INFO  (qtp429313384-15) [   ] o.a.s.s.IndexSchema Reading Solr Schema from E:\www12\web\archiwum\solr\server\solr\archidox\conf\schema.xml
+2015-10-09 12:57:46.545 INFO  (qtp429313384-15) [   ] o.a.s.s.IndexSchema [archidox] Schema name=archidox
+2015-10-09 12:57:46.546 TRACE (qtp429313384-15) [   ] o.a.s.c.Config schema:/schema/@version=version="1.5"
+2015-10-09 12:57:46.547 DEBUG (qtp429313384-15) [   ] o.a.s.c.Config schema /schema/@version=1.5
+2015-10-09 12:57:46.675 INFO  (qtp429313384-15) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-10-09 12:57:46.697 ERROR (qtp429313384-15) [   ] o.a.s.c.CoreContainer Error creating core [archidox]: Could not load conf for core archidox: java.nio.charset.MalformedInputException: Input length = 1
+org.apache.solr.common.SolrException: Could not load conf for core archidox: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:721)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:697)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:178)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.apache.lucene.analysis.util.WordlistLoader.getLines(WordlistLoader.java:217)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getLines(AbstractAnalysisFactory.java:252)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getWordSet(AbstractAnalysisFactory.java:241)
+	at org.apache.lucene.analysis.core.StopFilterFactory.inform(StopFilterFactory.java:109)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	... 34 more
+2015-10-09 12:57:46.699 ERROR (qtp429313384-15) [   ] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Error CREATEing SolrCore 'archidox': Unable to create core [archidox] Caused by: Input length = 1
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:662)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [archidox]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:737)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:697)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	... 27 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core archidox: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:721)
+	... 29 more
+Caused by: java.lang.RuntimeException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:178)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.apache.lucene.analysis.util.WordlistLoader.getLines(WordlistLoader.java:217)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getLines(AbstractAnalysisFactory.java:252)
+	at org.apache.lucene.analysis.util.AbstractAnalysisFactory.getWordSet(AbstractAnalysisFactory.java:241)
+	at org.apache.lucene.analysis.core.StopFilterFactory.inform(StopFilterFactory.java:109)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	... 34 more
+
+2015-10-09 12:57:46.701 INFO  (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444395465785} status=400 QTime=261 
+2015-10-09 12:57:49.114 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1444395469103} status=0 QTime=0 
+2015-10-09 12:57:57.902 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444395477889} status=0 QTime=0 
+2015-10-09 12:57:57.954 INFO  (qtp429313384-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1444395477929} status=0 QTime=0 
+2015-10-09 12:57:57.999 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1444395477984} status=0 QTime=1 
+2015-10-09 12:58:02.159 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@5c5ee2ad{HTTP/1.1}{0.0.0.0:8983}
+2015-10-09 12:58:02.159 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=996796369
+2015-10-09 12:58:02.159 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@239963d8{/solr,file:/E:/www12/web/archiwum/solr/server/solr-webapp/webapp/,UNAVAILABLE}{E:\www12\web\archiwum\solr\server/solr-webapp/webapp}

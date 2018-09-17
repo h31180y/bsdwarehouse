@@ -1,0 +1,373 @@
+2015-10-09 13:00:37.343 INFO  (main) [   ] o.e.j.u.log Logging initialized @607ms
+2015-10-09 13:00:37.639 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-10-09 13:00:37.655 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-10-09 13:00:37.655 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/E:/www12/web/archiwum/solr/server/contexts/] at interval 0
+2015-10-09 13:00:39.113 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-10-09 13:00:39.129 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@239963d8{/solr,file:/E:/www12/web/archiwum/solr/server/solr-webapp/webapp/,STARTING}{E:\www12\web\archiwum\solr\server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-10-09 13:00:39.129 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1454127753@56ac3a89
+2015-10-09 13:00:39.161 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-10-09 13:00:39.161 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: E:\www12\web\archiwum\solr\server\solr
+2015-10-09 13:00:39.161 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'E:\www12\web\archiwum\solr\server\solr\'
+2015-10-09 13:00:39.323 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from E:\www12\web\archiwum\solr\server\solr\solr.xml
+2015-10-09 13:00:39.407 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: E:\www12\web\archiwum\solr\server\solr
+2015-10-09 13:00:39.442 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 996796369
+2015-10-09 13:00:39.442 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=E:\www12\web\archiwum\solr\server\solr\]
+2015-10-09 13:00:39.442 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: E:\www12\web\archiwum\solr\server\solr\lib
+2015-10-09 13:00:39.442 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: E:\www12\web\archiwum\solr\server\solr\lib).
+2015-10-09 13:00:39.458 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-10-09 13:00:39.665 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-10-09 13:00:39.668 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-10-09 13:00:39.669 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-10-09 13:00:39.672 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-10-09 13:00:39.672 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-10-09 13:00:39.727 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath E:\www12\web\archiwum\solr\server\solr
+2015-10-09 13:00:39.737 INFO  (main) [   ] o.a.s.c.CoresLocator Found 0 core definitions
+2015-10-09 13:00:39.741 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=E:\www12\web\archiwum\solr\server
+2015-10-09 13:00:39.742 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-10-09 13:00:39.742 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@239963d8{/solr,file:/E:/www12/web/archiwum/solr/server/solr-webapp/webapp/,AVAILABLE}{E:\www12\web\archiwum\solr\server/solr-webapp/webapp}
+2015-10-09 13:00:39.865 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@2794eab6{HTTP/1.1}{0.0.0.0:8983}
+2015-10-09 13:00:39.866 INFO  (main) [   ] o.e.j.s.Server Started @3126ms
+2015-10-09 13:00:40.004 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=36 
+2015-10-09 13:00:40.004 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444395638763} status=0 QTime=36 
+2015-10-09 13:00:45.581 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444395645566} status=0 QTime=0 
+2015-10-09 13:00:45.630 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1444395645608} status=0 QTime=0 
+2015-10-09 13:00:45.678 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1444395645664} status=0 QTime=0 
+2015-10-09 13:00:47.046 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444395647026} status=0 QTime=0 
+2015-10-09 13:00:56.719 INFO  (qtp429313384-16) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=data&name=Archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444395656703
+2015-10-09 13:00:56.734 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=Archidox, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=archidox, absoluteInstDir=E:\www12\web\archiwum\solr\server\solr\archidox\, dataDir=data}
+2015-10-09 13:00:56.734 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'E:\www12\web\archiwum\solr\server\solr\archidox\'
+2015-10-09 13:00:56.811 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-10-09 13:00:56.867 INFO  (qtp429313384-16) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-10-09 13:00:56.875 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2015-10-09 13:00:56.990 INFO  (qtp429313384-16) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-10-09 13:00:56.999 INFO  (qtp429313384-16) [   ] o.a.s.s.IndexSchema Reading Solr Schema from E:\www12\web\archiwum\solr\server\solr\archidox\conf\schema.xml
+2015-10-09 13:00:57.035 INFO  (qtp429313384-16) [   ] o.a.s.s.IndexSchema [Archidox] Schema name=archidox
+2015-10-09 13:00:57.361 INFO  (qtp429313384-16) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-10-09 13:00:57.545 INFO  (qtp429313384-16) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-10-09 13:00:57.573 INFO  (qtp429313384-16) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-10-09 13:00:57.589 INFO  (qtp429313384-16) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'E:\www12\web\archiwum\solr\server\solr\archidox\conf'
+2015-10-09 13:00:57.589 INFO  (qtp429313384-16) [   ] o.a.s.c.CoreContainer Creating SolrCore 'Archidox' using configuration from instancedir E:\www12\web\archiwum\solr\server\solr\archidox\
+2015-10-09 13:00:57.604 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-10-09 13:00:57.757 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.SolrCore [[Archidox] ] Opening new SolrCore at [E:\www12\web\archiwum\solr\server\solr\archidox\], dataDir=[null]
+2015-10-09 13:00:57.842 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-10-09 13:00:57.921 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.CachingDirectoryFactory return new directory for E:\www12\web\archiwum\solr\server\solr\archidox\data
+2015-10-09 13:00:57.973 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.SolrCore New index directory detected: old=null new=E:\www12\web\archiwum\solr\server\solr\archidox\data\index/
+2015-10-09 13:00:57.973 WARN  (qtp429313384-16) [   x:Archidox] o.a.s.c.SolrCore [Archidox] Solr index directory 'E:\www12\web\archiwum\solr\server\solr\archidox\data\index' doesn't exist. Creating new index...
+2015-10-09 13:00:57.992 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.CachingDirectoryFactory return new directory for E:\www12\web\archiwum\solr\server\solr\archidox\data\index
+2015-10-09 13:00:58.191 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@E:\www12\web\archiwum\solr\server\solr\archidox\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@42e987ad; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2015-10-09 13:00:58.192 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.SolrCore newest commit generation = 1
+2015-10-09 13:00:58.193 INFO  (OldIndexDirectoryCleanupThreadForCore-Archidox) [   x:Archidox] o.a.s.c.SolrCore Looking for old index directories to cleanup for core Archidox in E:\www12\web\archiwum\solr\server\solr\archidox\data\
+2015-10-09 13:00:58.457 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-10-09 13:00:58.559 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-10-09 13:00:58.575 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-10-09 13:00:58.575 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-10-09 13:00:58.575 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-10-09 13:00:58.609 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-10-09 13:00:58.610 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-10-09 13:00:58.613 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-10-09 13:00:58.613 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2015-10-09 13:00:58.615 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-10-09 13:00:58.643 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-10-09 13:00:58.643 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-10-09 13:00:58.658 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-10-09 13:00:58.658 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-10-09 13:00:58.689 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@E:\www12\web\archiwum\solr\server\solr\archidox\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@42e987ad; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2015-10-09 13:00:58.689 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.SolrCore newest commit generation = 1
+2015-10-09 13:00:58.721 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.s.SolrIndexSearcher Opening Searcher@14085fb5[Archidox] main
+2015-10-09 13:00:58.761 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: E:\www12\web\archiwum\solr\server\solr\archidox\conf
+2015-10-09 13:00:58.761 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=E:\www12\web\archiwum\solr\server\solr\archidox\conf}
+2015-10-09 13:00:58.774 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=E:\www12\web\archiwum\solr\server\solr\archidox\conf
+2015-10-09 13:00:58.776 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=E:\www12\web\archiwum\solr\server\solr\archidox\conf
+2015-10-09 13:00:58.776 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2015-10-09 13:00:58.776 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-10-09 13:00:58.792 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-10-09 13:00:58.792 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-10-09 13:00:58.792 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-10-09 13:00:58.792 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2015-10-09 13:00:58.792 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1514558622313480192
+2015-10-09 13:00:58.792 INFO  (searcherExecutor-7-thread-1-processing-x:Archidox) [   x:Archidox] o.a.s.c.SolrCore [Archidox] Registered new searcher Searcher@14085fb5[Archidox] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2015-10-09 13:00:58.792 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.u.UpdateLog Took 0 ms to seed version buckets with highest version 1514558622313480192
+2015-10-09 13:00:58.792 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.CoreContainer registering core: Archidox
+2015-10-09 13:00:58.827 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=Archidox&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=archidox&config=solrconfig.xml&_=1444395656703} status=0 QTime=2107 
+2015-10-09 13:00:58.873 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444395658842} status=0 QTime=4 
+2015-10-09 13:00:58.946 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444395658904} status=0 QTime=1 
+2015-10-09 13:02:39.207 ERROR (qtp429313384-14) [   x:Archidox] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [E:\www12\web\archiwum\solr\server\solr\archidox\conf\admin-extra.menu-top.html]
+2015-10-09 13:02:39.209 INFO  (qtp429313384-14) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1444395759149} status=404 QTime=5 
+2015-10-09 13:02:39.209 ERROR (qtp429313384-15) [   x:Archidox] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [E:\www12\web\archiwum\solr\server\solr\archidox\conf\admin-extra.menu-bottom.html]
+2015-10-09 13:02:39.210 INFO  (qtp429313384-15) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1444395759149} status=404 QTime=6 
+2015-10-09 13:02:39.332 INFO  (qtp429313384-21) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1444395759285} status=0 QTime=1 
+2015-10-09 13:02:39.352 INFO  (qtp429313384-19) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/replication params={wt=json&command=details&_=1444395759294} status=0 QTime=3 
+2015-10-09 13:02:39.368 INFO  (qtp429313384-20) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/system params={wt=json&_=1444395759297} status=0 QTime=2 
+2015-10-09 13:02:39.378 ERROR (qtp429313384-15) [   x:Archidox] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [E:\www12\web\archiwum\solr\server\solr\archidox\conf\admin-extra.html]
+2015-10-09 13:02:39.379 INFO  (qtp429313384-15) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1444395759299} status=404 QTime=0 
+2015-10-09 13:02:39.440 INFO  (qtp429313384-14) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1444395759303} status=503 QTime=1 
+2015-10-09 13:02:48.190 INFO  (qtp429313384-15) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1444395768124} status=0 QTime=0 
+2015-10-09 13:02:48.193 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/replication params={wt=json&command=details&_=1444395768126} status=0 QTime=3 
+2015-10-09 13:02:48.196 INFO  (qtp429313384-17) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/system params={wt=json&_=1444395768127} status=0 QTime=1 
+2015-10-09 13:02:48.203 ERROR (qtp429313384-14) [   x:Archidox] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [E:\www12\web\archiwum\solr\server\solr\archidox\conf\admin-extra.html]
+2015-10-09 13:02:48.203 INFO  (qtp429313384-14) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1444395768128} status=404 QTime=0 
+2015-10-09 13:02:48.205 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1444395768130} status=503 QTime=0 
+2015-10-09 13:03:30.427 INFO  (qtp429313384-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444395810397} status=0 QTime=0 
+2015-10-09 13:03:30.500 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1444395810486} status=0 QTime=1 
+2015-10-09 13:03:30.550 ERROR (qtp429313384-17) [   x:Archidox] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [E:\www12\web\archiwum\solr\server\solr\archidox\conf\admin-extra.menu-top.html]
+2015-10-09 13:03:30.551 INFO  (qtp429313384-17) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1444395810532} status=404 QTime=1 
+2015-10-09 13:03:30.561 ERROR (qtp429313384-20) [   x:Archidox] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [E:\www12\web\archiwum\solr\server\solr\archidox\conf\admin-extra.menu-bottom.html]
+2015-10-09 13:03:30.562 INFO  (qtp429313384-20) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1444395810533} status=404 QTime=0 
+2015-10-09 13:03:30.613 INFO  (qtp429313384-15) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1444395810577} status=0 QTime=0 
+2015-10-09 13:03:30.624 INFO  (qtp429313384-14) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/replication params={wt=json&command=details&_=1444395810583} status=0 QTime=2 
+2015-10-09 13:03:30.649 ERROR (qtp429313384-16) [   x:Archidox] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [E:\www12\web\archiwum\solr\server\solr\archidox\conf\admin-extra.html]
+2015-10-09 13:03:30.650 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1444395810593} status=404 QTime=1 
+2015-10-09 13:03:30.651 INFO  (qtp429313384-21) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/system params={wt=json&_=1444395810587} status=0 QTime=2 
+2015-10-09 13:03:30.661 INFO  (qtp429313384-17) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1444395810596} status=503 QTime=1 
+2015-10-09 13:03:46.767 INFO  (qtp429313384-14) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1444395826704} status=0 QTime=4 
+2015-10-09 13:03:50.375 INFO  (qtp429313384-17) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1444395830350} status=0 QTime=2 
+2015-10-09 13:03:50.393 INFO  (qtp429313384-21) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/replication params={wt=json&command=details&_=1444395830353} status=0 QTime=6 
+2015-10-09 13:03:50.401 INFO  (qtp429313384-20) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/system params={wt=json&_=1444395830355} status=0 QTime=1 
+2015-10-09 13:03:50.418 INFO  (qtp429313384-15) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1444395830362} status=503 QTime=0 
+2015-10-09 13:03:50.422 ERROR (qtp429313384-14) [   x:Archidox] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [E:\www12\web\archiwum\solr\server\solr\archidox\conf\admin-extra.html]
+2015-10-09 13:03:50.426 INFO  (qtp429313384-14) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1444395830360} status=404 QTime=4 
+2015-10-09 13:09:24.645 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444396164631} status=0 QTime=0 
+2015-10-09 13:09:24.680 INFO  (qtp429313384-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1444396164669} status=0 QTime=0 
+2015-10-09 13:12:11.479 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444396331463} status=0 QTime=0 
+2015-10-09 13:12:11.518 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1444396331505} status=0 QTime=0 
+2015-10-09 13:12:12.956 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444396332936} status=0 QTime=1 
+2015-10-09 13:12:13.016 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444396332999} status=0 QTime=0 
+2015-10-09 13:12:17.589 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444396337553} status=0 QTime=0 
+2015-10-09 13:12:17.629 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444396337611} status=0 QTime=0 
+2015-10-09 13:12:18.870 ERROR (qtp429313384-15) [   x:Archidox] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [E:\www12\web\archiwum\solr\server\solr\archidox\conf\admin-extra.menu-top.html]
+2015-10-09 13:12:18.872 INFO  (qtp429313384-15) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1444396338792} status=404 QTime=2 
+2015-10-09 13:12:18.873 ERROR (qtp429313384-16) [   x:Archidox] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [E:\www12\web\archiwum\solr\server\solr\archidox\conf\admin-extra.menu-bottom.html]
+2015-10-09 13:12:18.873 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1444396338792} status=404 QTime=0 
+2015-10-09 13:12:18.908 INFO  (qtp429313384-21) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1444396338888} status=0 QTime=0 
+2015-10-09 13:12:18.922 INFO  (qtp429313384-14) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/replication params={wt=json&command=details&_=1444396338892} status=0 QTime=1 
+2015-10-09 13:12:18.943 INFO  (qtp429313384-20) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/system params={wt=json&_=1444396338893} status=0 QTime=2 
+2015-10-09 13:12:18.948 ERROR (qtp429313384-19) [   x:Archidox] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [E:\www12\web\archiwum\solr\server\solr\archidox\conf\admin-extra.html]
+2015-10-09 13:12:18.949 INFO  (qtp429313384-19) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1444396338894} status=404 QTime=2 
+2015-10-09 13:12:18.961 INFO  (qtp429313384-16) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1444396338896} status=503 QTime=0 
+2015-10-09 13:12:38.144 INFO  (qtp429313384-15) [   x:Archidox] o.a.s.u.p.LogUpdateProcessor [Archidox] webapp=/solr path=/update params={} {} 0 6
+2015-10-09 13:12:38.144 ERROR (qtp429313384-15) [   x:Archidox] o.a.s.c.SolrCore org.apache.solr.common.SolrException: missing content stream
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:69)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+
+2015-10-09 13:12:52.022 INFO  (qtp429313384-15) [   x:Archidox] o.a.s.u.p.LogUpdateProcessor [Archidox] webapp=/solr path=/update/json params={} {} 0 0
+2015-10-09 13:12:52.022 ERROR (qtp429313384-15) [   x:Archidox] o.a.s.c.SolrCore org.apache.solr.common.SolrException: missing content stream
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:69)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+
+2015-10-09 13:13:07.046 INFO  (qtp429313384-15) [   x:Archidox] o.a.s.c.S.Request [Archidox] webapp=/solr path=/select params={} hits=0 status=0 QTime=44 
+2015-10-09 13:13:30.179 INFO  (qtp429313384-15) [   x:Archidox] o.a.s.u.p.LogUpdateProcessor [Archidox] webapp=/solr path=/update/json params={stream.body={"add":{"overwrite":true,"doc":{"id":"2348","type":"document","name":"Testowe+pud\u0142o+SOLR+4-1","description":"Testowe+pud\u0142o+SOLR+4\t\t\t\t\t\t1\t\t\t\t\t\t\t\t\t\t\t\t"}}}&wt=json} {} 0 52
+2015-10-09 13:13:30.181 ERROR (qtp429313384-15) [   x:Archidox] o.a.s.s.SolrDispatchFilter null:java.lang.RuntimeException: java.lang.NoClassDefFoundError: morfologik/stemming/IStemmer
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:618)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:477)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NoClassDefFoundError: morfologik/stemming/IStemmer
+	at org.apache.lucene.analysis.morfologik.MorfologikFilterFactory.create(MorfologikFilterFactory.java:78)
+	at org.apache.solr.analysis.TokenizerChain.createComponents(TokenizerChain.java:92)
+	at org.apache.lucene.analysis.AnalyzerWrapper.createComponents(AnalyzerWrapper.java:101)
+	at org.apache.lucene.analysis.AnalyzerWrapper.createComponents(AnalyzerWrapper.java:101)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:179)
+	at org.apache.lucene.document.Field.tokenStream(Field.java:562)
+	at org.apache.lucene.index.DefaultIndexingChain$PerField.invert(DefaultIndexingChain.java:607)
+	at org.apache.lucene.index.DefaultIndexingChain.processField(DefaultIndexingChain.java:344)
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:300)
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:234)
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:450)
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1475)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:239)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:163)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:69)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:51)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:955)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1110)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:706)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:104)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:143)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:113)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:76)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:98)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	... 22 more
+Caused by: java.lang.ClassNotFoundException: morfologik.stemming.IStemmer
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:450)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:403)
+	... 51 more
+
+2015-10-09 13:13:30.185 WARN  (qtp429313384-15) [   x:Archidox] o.e.j.s.ServletHandler Error for /solr/Archidox/update/json
+java.lang.NoClassDefFoundError: morfologik/stemming/IStemmer
+	at org.apache.lucene.analysis.morfologik.MorfologikFilterFactory.create(MorfologikFilterFactory.java:78)
+	at org.apache.solr.analysis.TokenizerChain.createComponents(TokenizerChain.java:92)
+	at org.apache.lucene.analysis.AnalyzerWrapper.createComponents(AnalyzerWrapper.java:101)
+	at org.apache.lucene.analysis.AnalyzerWrapper.createComponents(AnalyzerWrapper.java:101)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:179)
+	at org.apache.lucene.document.Field.tokenStream(Field.java:562)
+	at org.apache.lucene.index.DefaultIndexingChain$PerField.invert(DefaultIndexingChain.java:607)
+	at org.apache.lucene.index.DefaultIndexingChain.processField(DefaultIndexingChain.java:344)
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:300)
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:234)
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:450)
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1475)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:239)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:163)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:69)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:51)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:955)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1110)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:706)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:104)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:143)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:113)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:76)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:98)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: morfologik.stemming.IStemmer
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:450)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:403)
+	... 51 more
+2015-10-09 13:13:46.245 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444396426231} status=0 QTime=0 
+2015-10-09 13:13:46.285 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1444396426271} status=0 QTime=0 
+2015-10-09 13:13:47.852 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1444396427826} status=0 QTime=1 
+2015-10-09 13:13:57.887 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396437871} status=0 QTime=0 
+2015-10-09 13:14:07.956 INFO  (qtp429313384-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396447916} status=0 QTime=0 
+2015-10-09 13:14:17.993 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396457962} status=0 QTime=0 
+2015-10-09 13:14:28.529 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396468485} status=0 QTime=0 
+2015-10-09 13:14:38.549 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396478538} status=0 QTime=0 
+2015-10-09 13:14:48.593 INFO  (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396488561} status=0 QTime=0 
+2015-10-09 13:14:58.635 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396498619} status=0 QTime=0 
+2015-10-09 13:15:08.662 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396508662} status=0 QTime=0 
+2015-10-09 13:15:19.501 INFO  (qtp429313384-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396519485} status=0 QTime=0 
+2015-10-09 13:15:30.492 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396530492} status=0 QTime=1 
+2015-10-09 13:15:41.515 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396541499} status=0 QTime=0 
+2015-10-09 13:15:52.510 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396552494} status=0 QTime=0 
+2015-10-09 13:16:03.497 INFO  (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396563497} status=0 QTime=0 
+2015-10-09 13:16:14.569 INFO  (qtp429313384-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396574489} status=0 QTime=0 
+2015-10-09 13:16:25.501 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396585486} status=0 QTime=0 
+2015-10-09 13:16:36.516 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396596501} status=0 QTime=0 
+2015-10-09 13:16:47.503 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396607488} status=0 QTime=0 
+2015-10-09 13:16:58.504 INFO  (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1444396410185&_=1444396618488} status=0 QTime=0 
+2015-10-09 13:17:05.482 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@2794eab6{HTTP/1.1}{0.0.0.0:8983}
+2015-10-09 13:17:05.483 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=996796369
+2015-10-09 13:17:05.483 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.c.SolrCore [Archidox]  CLOSING SolrCore org.apache.solr.core.SolrCore@bfea3aa
+2015-10-09 13:17:05.484 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=1,deletesById=0,deletesByQuery=0,errors=1,cumulative_adds=1,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=1,transaction_logs_total_size=0,transaction_logs_total_number=0}
+2015-10-09 13:17:05.484 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-10-09 13:17:05.484 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-10-09 13:17:05.484 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2015-10-09 13:17:05.753 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@E:\www12\web\archiwum\solr\server\solr\archidox\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@42e987ad; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+	commit{dir=NRTCachingDirectory(MMapDirectory@E:\www12\web\archiwum\solr\server\solr\archidox\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@42e987ad; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+2015-10-09 13:17:05.753 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.c.SolrCore newest commit generation = 2
+2015-10-09 13:17:05.755 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.c.SolrCore [Archidox] Closing main searcher on request.
+2015-10-09 13:17:05.758 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-10-09 13:17:05.759 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.c.CachingDirectoryFactory looking to close E:\www12\web\archiwum\solr\server\solr\archidox\data\index [CachedDir<<refCount=0;path=E:\www12\web\archiwum\solr\server\solr\archidox\data\index;done=false>>]
+2015-10-09 13:17:05.759 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.c.CachingDirectoryFactory Closing directory: E:\www12\web\archiwum\solr\server\solr\archidox\data\index
+2015-10-09 13:17:05.759 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.c.CachingDirectoryFactory looking to close E:\www12\web\archiwum\solr\server\solr\archidox\data [CachedDir<<refCount=0;path=E:\www12\web\archiwum\solr\server\solr\archidox\data;done=false>>]
+2015-10-09 13:17:05.760 INFO  (ShutdownMonitor) [   x:Archidox] o.a.s.c.CachingDirectoryFactory Closing directory: E:\www12\web\archiwum\solr\server\solr\archidox\data
+2015-10-09 13:17:05.762 INFO  (ShutdownMonitor) [   x:Archidox] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@239963d8{/solr,file:/E:/www12/web/archiwum/solr/server/solr-webapp/webapp/,UNAVAILABLE}{E:\www12\web\archiwum\solr\server/solr-webapp/webapp}
